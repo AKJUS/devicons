@@ -21,6 +21,11 @@ const i = (name: string, variants: Variants, tags?: string[]): Icon => ({
 export const icons: Icon[] = [
   i("Airflow", { [c]: "airflow.svg" }),
   i("Android", { [c]: "android.svg" }),
+  i("Angular", {
+    [c]: "angular.svg",
+    [l]: "angular-light.svg",
+    [d]: "angular-dark.svg",
+  }, ["ng"]),
   i("AngularJS", { [c]: "angularjs.svg" }),
   i("Apple", { [d]: "apple-dark.svg", [l]: "apple-light.svg" }),
   i("Arch Linux", { [c]: "archlinux.svg" }),
